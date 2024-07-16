@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Component1=()=>{
   return <h1 style={{color:'orangered'}}>Componet 1</h1>
