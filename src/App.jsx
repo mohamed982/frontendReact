@@ -25,6 +25,10 @@ function App() {
     })
   }
 
+  const handleChange=(e)=>{
+
+  }
+  
   useEffect(()=>{
     (async()=>{
       const data=await getData();
@@ -36,6 +40,14 @@ function App() {
     <>
       <div>
           {/* Render Components Here */}
+
+          {/* Upload Photo */}
+          <div>
+             <img
+                src=''
+             />
+             <input type="file" onChange={handleChange}/>
+          </div>
       </div>
     </>
   )
